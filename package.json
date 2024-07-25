@@ -7,7 +7,7 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
-    "json-server": "json-server --watch blog.json --port 3000"
+    "json-server": "json-server --watch blog.json --port 3001"
   },
   "dependencies": {
     "@emotion/react": "^11.13.0",
@@ -15,6 +15,7 @@
     "@mui/icons-material": "^5.16.4",
     "@mui/material": "^5.16.4",
     "@mui/styled-engine-sc": "^6.0.0-alpha.18",
+    "cors": "^2.8.5",
     "json-server": "^1.0.0-beta.1",
     "next": "14.2.5",
     "react": "^18",

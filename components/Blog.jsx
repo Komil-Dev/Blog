@@ -28,7 +28,7 @@ const BlogForm = ({ onAddBlog, onClose }) => {
     };
 
     try {
-      const response = await fetch("http://localhost:3000/blogs", {
+      const response = await fetch("http://localhost:3001/blogs", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
@@ -119,8 +119,6 @@ const BlogForm = ({ onAddBlog, onClose }) => {
     </div>
   );
 };
-
-// Styles (same as in your previous code)
 
 const modalStyles = {
   overlay: {
